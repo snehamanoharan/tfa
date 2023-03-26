@@ -18,10 +18,12 @@ variable "instance_type" {
 variable "buckname" {
     description="bucket name"
     type = string
+    default="buck"
 }
 
 variable "dbname" {
     description = "db name"
     type = string
+    default="instan"
   
 }
